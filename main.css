@@ -6,6 +6,8 @@ html {
   text-align: center;
   color: white;
   overflow-x: hidden;
+  font-family: "Happy Monkey", cursive;
+  font-family: "Orbitron", sans-serif;
 }
 
 /* start of part A */
@@ -79,6 +81,7 @@ html {
 }
 
 #mail-box {
+  color: black;
   text-align: left;
   font-size: 1.5em;
   width: 500px;
@@ -381,6 +384,7 @@ html {
 @media screen and (max-width: 600px) {
   .video-download-image {
     height: 250px;
+    width: 300px;
   }
 }
 
@@ -434,12 +438,6 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .list {
-    margin: 3% 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
   .header {
     width: 100%;
   }
@@ -480,6 +478,7 @@ html {
 
 @media screen and (max-width: 600px) {
   #image-of-kids {
+    height: 350px;
     width: 350px;
   }
 }
